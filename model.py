@@ -17,3 +17,8 @@ def evaluate_model():
 if __name__ == "__main__":
     print("MLOps Project Initialized")
     train_model()
+    
+def evaluate_model():
+    print("Evaluating model performance...")
+    # Evaluation code would go here
+    return {"accuracy": 0.95}
